@@ -1,0 +1,9 @@
+jobs:
+  my_first_job:
+    steps:
+      - name: My first step
+        # Uses the default branch of a public repository
+        uses: actions/heroku@main
+      - name: My second step
+        # Uses a specific version tag of a public repository
+        uses: actions/aws@v2.0.1
